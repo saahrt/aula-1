@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculo</title>
+    <style>
+      @import url(https://fonts.googleapis.com/css2?family=Barriecito&display=swap);
+      @import url(https://fonts.googleapis.com/css2?family=Barriecito&family=Rock+Salt&display=swap);
+
+      /* sem essa funcionalidade não é possivel importar a fonte para o codigo */
+      /* fonte da fonte: https://fonts.google.com/specimen/Barriecito e https://fonts.google.com/specimen/Rock+Salt*/
+
+      /* classes facilitam futuras manutenções e modificações no seu site */
+      .foto {
+        width: 100px;
+        border-radius: 50px;
+        /* quanto maior a numeração do radius mais arredondado ele fica */
+        border: solid rgb(19, 18, 114) 3px;
+      }
+      #foto {
+        width: 100px;
+        border-radius: 50px;
+        /* quanto maior a numeração do radius mais arredondado ele fica */
+        border: solid rgb(19, 18, 114) 3px;
+      }
+      .container-curriculo{
+        text-align: center;
+        font-family: "Barriecito", system-ui;
+        font-weight: 400;
+        max-width: 600px;
+        font-style: normal;
+        background-color: cadetblue;
+        color: black;
+        padding: 10px;
+        margin-bottom: 10px;
+        margin: 0 auto;
+      }
+
+      .container-curriculo2{
+        text-align: center;
+        font-family: "Rock Salt", cursive;
+        max-width: 600px;
+        font-weight: 400;
+        font-style: normal;
+        background-color: rgb(8, 50, 51);
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        margin-bottom: 10px;
+        margin: 0 auto;
+      }
+
+      .informacoes {
+        max-width: 600px;
+        background-color: burlywood;
+        font-family: "Barriecito", system-ui;
+        font-weight: 400;
+        text-align: center;
+        margin: 0 auto;
+        padding: 10px;
+      }
+
+    </style>
+    <!-- padding é o espaçamento dentro do componente(espaçamento interno), é possivel especificar a direção do espaçamento (top, right, bottom, left) o padding puro serve para generalizar esse espaçamento para todos os lados. você também pode especificar os espaçamentos em uma mesma linha e a ordem entre parenteses representa a ordem que será aplicada
+    ex.1: padding: 20px 30px 40px 50px; (top, right, bottom, left)
+    ex.2: padding: 20px 40px; (top, right e bottom, left) -->
+
+    <!-- margin é o espaçamento da margem em volta do componente. margin: 0 auto; serve para quando voce tem um container reduzido e quer alinhar ele para o meio-->
+
+</head>
+<body>
+    <!-- quando for classe em cima é . quando for id em cima é # -->
+    <!-- id servem para coisas únicas, classes servem para quando você quer compartilhar aquela funcionaldiade para outras coisas -->
+
+  <div class="container-curriculo">
+    <h1>Carinha que mora logo ali</h1>
+    <h2>carinhaquemoralogoali@gmail.com</h2>
+    <h3>55119876543210</h3>
+    <img class="foto" src="./imagens/carinha que mora ali.jpg"/>
+  </div>
+
+  <div class="container-curriculo2">
+    <h1>Carinha que mora logo ali</h1>
+    <h2>carinhaquemoralogoali@gmail.com</h2>
+    <h3>55119876543210</h3>
+    <img id="foto" src="./imagens/carinha que mora ali.jpg"/>
+  </div>
+
+  <!-- fonte da imagem: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.adorocinema.com%2Fseries%2Fserie-458%2Ffoto-detalhada%2F%3Fcmediafile%3D18779742&psig=AOvVaw3JrOaEnoUX7nxPefzB18iC&ust=1742343434718000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPC4ppaukowDFQAAAAAdAAAAABAE -->
+
+  <div class="informacoes">
+    <p>todo mundo odeia ele até as empresas</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto numquam quidem cum molestiae repellat odit assumenda, omnis, rem iste corrupti minus cupiditate repellendus necessitatibus esse alias impedit modi nobis! Autem.</p>
+  </div>
+  
+</body>
+</html>
